@@ -4,7 +4,7 @@ import logoUrl from '../../assets/LOGORN.png';
 export default function LogoContainer() {
   return (
     <div className="mb-10 sm:mb-16 relative group">
-      <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 bg-orange/20 backdrop-blur-xl border border-white/30 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-xl sm:shadow-2xl shadow-blue-500/10 transform transition-all duration-700 group-hover:scale-105 group-hover:rotate-1">
+      <div className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 bg-white/20 backdrop-blur-xl border border-white/30 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-xl sm:shadow-2xl shadow-blue-500/10 transform transition-all duration-700 group-hover:scale-105 group-hover:rotate-1">
         <img 
           src={logoUrl} 
           alt="Logo"
