@@ -84,7 +84,6 @@ export default function SplashScreen({ onComplete }) {
         `}
       >
         <LogoContainer />
-        <TitleSection fadeIn={fadeIn} />
 
         {/* LOADING BAR REMOVED */}
       </div>
