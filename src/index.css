@@ -9,3 +9,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@keyframes revealLeft {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes revealRight {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-reveal-left {
+  animation: revealLeft 1.2s ease forwards;
+}
+
+.animate-reveal-right {
+  animation: revealRight 1.2s ease forwards;
+}

@@ -4,7 +4,6 @@ import { ChefHat, Play, ArrowRight } from 'lucide-react';
 export default function HeroSection() {
   return (
     <section className="relative overflow-hidden min-h-screen md:min-h-[85vh] flex items-center">
-
       {/* FULL BACKGROUND IMAGE */}
       <div className="absolute inset-0">
         <img
