@@ -1,7 +1,7 @@
 // src/components/home/HeroSection.jsx
 import { useState, useEffect } from "react";
 import { ChefHat, Play, ArrowRight } from 'lucide-react';
-import { motion } from "framer-motion";
+
 
 export default function HeroSection() {
   const [countdown, setCountdown] = useState("");
