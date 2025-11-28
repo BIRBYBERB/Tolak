@@ -35,7 +35,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative overflow-hidden min-h-screen md:min-h-[85vh] flex items-center">
+    <section className="relative overflow-hidden min-h-screen md:min-h-[85vh] flex items-center bg-black -mt-20"> 
       {/* FULL BACKGROUND IMAGE */}
       <div className="absolute inset-0">
         <img
@@ -62,7 +62,7 @@ export default function HeroSection() {
           <div className="relative inline-block">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-blue-300 to-blue-200 transform -skew-y-1 rounded-lg opacity-80"></div>
             <h1 className="relative text-2xl font-bold text-slate-800 px-4 py-2">
-              Resep Nusantara
+              The Season of Halloween is Upon Us All!
             </h1>
           </div>
           <p className="text-slate-600 text-base mb-4 mt-4">Warisan Kuliner Indonesia</p>
