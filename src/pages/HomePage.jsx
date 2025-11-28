@@ -36,14 +36,14 @@ export default function HomePage({ onRecipeClick, onNavigate }) {
       {/* Corner Decorations */}
       <img 
         src="https://64.media.tumblr.com/45ee51c4f5844ded68c54ab9be6974bd/ccb00881f00f4107-1b/s500x750/8d5e6c2232724e113fa15f3817b3bc48b1c9a0c5.pnj" 
-        className="absolute top-4 left-4 w-36 opacity-70 pointer-events-none select-none"
+        className="absolute top-0 left-0 h-full object-cover opacity-70 pointer-events-none select-none"
       />
       <img 
         src="https://64.media.tumblr.com/45ee51c4f5844ded68c54ab9be6974bd/ccb00881f00f4107-1b/s500x750/8d5e6c2232724e113fa15f3817b3bc48b1c9a0c5.pnj" 
-        className="absolute top-4 right-4 w-36 opacity-70 pointer-events-none select-none"
+        className="absolute top-0 right-0 h-full object-cover opacity-70 pointer-events-none select-none"
       />
 
-      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <RevealAnimation />
         <HeroSection />
         
