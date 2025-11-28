@@ -134,7 +134,7 @@ export default function HeroSection() {
             </h1>
 
             {/* Featured Myth Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6 justify-items-center">
 
               {/* Card 1 */}
               <motion.div
@@ -148,7 +148,7 @@ export default function HeroSection() {
                   className="w-full h-48 object-cover rounded-xl mb-4"
                 />
                 <h2 className="text-xl font-bold text-white mb-2">The Headless Horseman</h2>
-                <p className="text-blue-200 text-sm mb-2">Global Myth</p>
+                <p className="text-blue-200 text-sm">Global Myth</p>
               </motion.div>
 
               {/* Card 2 */}
@@ -163,7 +163,7 @@ export default function HeroSection() {
                   className="w-full h-48 object-cover rounded-xl mb-4"
                 />
                 <h2 className="text-xl font-bold text-white mb-2">The Banshee</h2>
-                <p className="text-blue-200 text-sm mb-2">Irish Folklore</p>
+                <p className="text-blue-200 text-sm">Irish Folklore</p>
               </motion.div>
 
               {/* Card 3 */}
@@ -178,7 +178,7 @@ export default function HeroSection() {
                   className="w-full h-48 object-cover rounded-xl mb-4"
                 />
                 <h2 className="text-xl font-bold text-white mb-2">The Wendigo</h2>
-                <p className="text-blue-200 text-sm mb-2">North American Legend</p>
+                <p className="text-blue-200 text-sm">North American Legend</p>
               </motion.div>
 
             </div>
