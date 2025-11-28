@@ -123,10 +123,9 @@ export default function HeroSection() {
       </div>
 
       <div className="hidden md:block relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          
+
           {/* Left Content */}
-          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+          <div className="flex flex-col items-center text-center">
             
             {/* Countdown */}
             <h1 className="text-xl font-semibold text-orange-400 drop-shadow mb-8">
@@ -208,7 +207,6 @@ export default function HeroSection() {
               </p> */}
             {/* </motion.div> */}
           </div>
-        </div>
       </div>
     </section>
   );
