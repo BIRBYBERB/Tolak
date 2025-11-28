@@ -129,17 +129,17 @@ export default function HeroSection() {
           <div className="text-center lg:text-left">
             <div className="mb-16 lg:mb-20">
               <div className="relative inline-block mb-8">
-                <h1 className="relative text-5xl lg:text-6xl font-semibold text-slate-800 px-6 py-3 whitespace-nowrap">
+                <h1 className="relative text-5xl lg:text-2xl font-semibold text-slate-800 px-6 py-3 whitespace-nowrap">
                   Beneath the grave,
                 </h1>
-                <h2 className="relative text-5xl lg:text-6xl font-semibold text-slate-800 px-6 py-3 whitespace-nowrap"> 
+                <h2 className="relative text-5xl lg:text-xl font-semibold text-slate-800 px-6 py-3 whitespace-nowrap"> 
                   Lies blood-curdling regrets that haunt us.
                 </h2>
                 {/* Soft shadow behind text */}
                 <div className="absolute inset-0 rounded-xl blur-2xl bg-black/10 -z-10"></div>
               </div>
 
-              <h1 className="text-xl font-semibold text-orange-400 drop-shadow mb-6">🎃 Halloween Countdown: {countdown}</h1>
+              <h1 className="text-4xl font-semibold text-orange-400 drop-shadow mb-6">{countdown}</h1>
             </div>
 
             {/* Action Buttons */}
