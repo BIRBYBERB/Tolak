@@ -34,7 +34,7 @@ export default function HeroSection() {
 
     return () => clearInterval(interval);
   }, []);
-  
+
   return (
     <section className="relative overflow-hidden min-h-screen md:min-h-[85vh] flex items-center">
       {/* FULL BACKGROUND IMAGE */}
@@ -46,7 +46,7 @@ export default function HeroSection() {
         />
         
         {/* FADE GRADIENT */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-black/25 to-black"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-black/75 to-black"></div>
       </div>
         
       <div className="absolute top-20 left-10 w-40 h-40 bg-gradient-to-r from-blue-400/20 to-indigo-400/20 rounded-full blur-3xl animate-pulse" />
@@ -67,10 +67,10 @@ export default function HeroSection() {
             </h1>
           </div>
           <p className="text-slate-600 text-base mb-4 mt-4">Warisan Kuliner Indonesia</p>
+          <p className="text-xl font-semibold text-orange-400 drop-shadow mb-6">🎃 Halloween Countdown: {countdown}</p>
           <p className="text-slate-500 text-sm max-w-xs mx-auto leading-relaxed">
             Temukan ribuan resep autentik dari seluruh Nusantara. Dari masakan tradisional hingga kreasi modern.
           </p>
-          <p className="text-xl font-semibold text-orange-400 drop-shadow mb-6">🎃 Halloween Countdown: {countdown}</p>
         </div>
 
         <div className="mb-8 max-w-xs mx-auto">
