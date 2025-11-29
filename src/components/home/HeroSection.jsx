@@ -226,6 +226,22 @@ export default function HeroSection() {
                 <p className="text-slate-400 text-sm italic">
                   - Anonymous Villager, 1823
                 </p>
+                <div className="flex gap-3 overflow-x-auto py-2">
+                  {[
+                    "https://images.unsplash.com/photo-1606788075760-0b4f5f6f8d89?w=200&h=150&fit=crop",
+                    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=200&h=150&fit=crop",
+                    "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=200&h=150&fit=crop",
+                    "https://images.unsplash.com/photo-1519985176271-adb1088fa94c?w=200&h=150&fit=crop"
+                  ].map((src, index) => (
+                    <div key={index} className="flex-shrink-0 w-24 h-24 rounded-lg overflow-hidden border border-white/20 shadow-sm">
+                      <img 
+                        src={src}
+                        alt={`Proof ${index + 1}`}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  ))}
+                </div>
               </motion.div>
 
             </div>
