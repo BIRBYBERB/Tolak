@@ -126,7 +126,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="hidden md:block relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div className="hidden md:block relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="flex justify-center gap-10 mt-6 flex-wrap">
           
           {/* Left Content */}
@@ -187,9 +187,8 @@ export default function HeroSection() {
 
             </div> */}
             {/* Featured Myth Section (Tarot Card + Report) */}
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-10 mt-10">
-
-              {Report.map((report) => (
+            <div className="flex flex-wrap justify-center gap-10 mt-6">
+              {allReports.map((report) => (
                 <motion.div
                   key={report.id}
                   initial={{ opacity: 0, y: -40 }}
@@ -200,6 +199,7 @@ export default function HeroSection() {
                 >
                   <img
                     src={report.proofImages[0]}
+                    alt={report.title}
                     className="w-full h-[450px] object-cover rounded-xl mb-5"
                   />
                   <h2 className="text-2xl font-bold text-white text-center mb-1">
